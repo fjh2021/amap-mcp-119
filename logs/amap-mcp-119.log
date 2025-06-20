@@ -1,0 +1,419 @@
+2025-06-20T20:22:28.894+08:00  INFO 19916 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 19916 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T20:22:28.907+08:00  INFO 19916 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T20:22:31.010+08:00  INFO 19916 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T20:22:31.039+08:00  INFO 19916 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T20:22:31.039+08:00  INFO 19916 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T20:22:31.105+08:00  INFO 19916 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T20:22:31.107+08:00  INFO 19916 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1709 ms
+2025-06-20T20:22:34.423+08:00  INFO 19916 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T20:22:34.473+08:00  INFO 19916 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T20:22:35.147+08:00  WARN 19916 --- [amap-mcp-119] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiController': Injection of resource dependencies failed
+2025-06-20T20:22:35.147+08:00  INFO 19916 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-20T20:22:35.163+08:00  INFO 19916 --- [amap-mcp-119] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-20T20:22:35.210+08:00 ERROR 19916 --- [amap-mcp-119] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in github.com.fanjh.amap_mcp_119.openai.service.ChatClientService required a bean of type 'org.springframework.ai.chat.memory.ChatMemory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.ai.chat.memory.ChatMemory' in your configuration.
+
+2025-06-20T20:24:26.370+08:00  INFO 26576 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 26576 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T20:24:26.375+08:00  INFO 26576 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T20:24:28.200+08:00  INFO 26576 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T20:24:28.220+08:00  INFO 26576 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T20:24:28.221+08:00  INFO 26576 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T20:24:28.287+08:00  INFO 26576 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T20:24:28.287+08:00  INFO 26576 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1557 ms
+2025-06-20T20:24:31.824+08:00  INFO 26576 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T20:24:31.870+08:00  INFO 26576 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T20:24:32.874+08:00  INFO 26576 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T20:24:32.886+08:00  INFO 26576 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.308 seconds (process running for 9.155)
+2025-06-20T20:57:54.963+08:00  INFO 26576 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T20:57:54.963+08:00  INFO 26576 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T20:57:54.963+08:00  INFO 26576 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-20T20:58:21.066+08:00  INFO 20096 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 20096 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T20:58:21.070+08:00  INFO 20096 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T20:58:22.971+08:00  INFO 20096 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T20:58:22.990+08:00  INFO 20096 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T20:58:22.991+08:00  INFO 20096 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T20:58:23.054+08:00  INFO 20096 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T20:58:23.055+08:00  INFO 20096 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1580 ms
+2025-06-20T20:58:26.166+08:00  INFO 20096 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T20:58:26.199+08:00  INFO 20096 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T20:58:27.094+08:00  INFO 20096 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T20:58:27.595+08:00  INFO 20096 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T20:58:27.607+08:00  INFO 20096 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.303 seconds (process running for 9.724)
+2025-06-20T20:59:04.378+08:00  INFO 20096 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T20:59:04.378+08:00  INFO 20096 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T20:59:04.378+08:00  INFO 20096 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-20T21:01:49.504+08:00  INFO 20096 --- [amap-mcp-119] [http-nio-8080-exec-9] g.c.f.a.o.service.ChatClientService      : 大模型回答：火灾地点位于：广东省广州市天河区员村西街1号大院，其经纬度坐标为：113.356495,23.119966。当地消防部门已得知火灾信息，他们正在紧急响应中。
+
+接下来，请告诉我火势情况如何？现场有无人员被困？同时，我需要知道您的姓名和联系电话以便进一步沟通。请尽快提供这些关键信息。
+2025-06-20T21:01:50.442+08:00  INFO 20096 --- [amap-mcp-119] [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-20T21:01:56.113+08:00 ERROR 20096 --- [amap-mcp-119] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in github/com/fanjh/amap_mcp_119/alarm/mapper/FireReportMapper.java (best guess)
+### The error may involve github.com.fanjh.amap_mcp_119.alarm.mapper.FireReportMapper.insert
+### The error occurred while executing an update
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection] with root cause
+
+com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'112.94.76.251' (using password: YES)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:128) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:849) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:771) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:739) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:156) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:468) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:213) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1430) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:134) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:839) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:820) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-6.3.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:77) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:64) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:155) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:92) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at jdk.proxy2/jdk.proxy2.$Proxy75.insert(Unknown Source) ~[na:na]
+	at github.com.fanjh.amap_mcp_119.alarm.service.FireAlarmService.save(FireAlarmService.java:29) ~[classes/:na]
+	at github.com.fanjh.amap_mcp_119.alarm.controller.EmergencyController.fireReport(EmergencyController.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-06-20T21:09:46.441+08:00  INFO 20096 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:09:46.441+08:00  INFO 20096 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:10:21.260+08:00  INFO 20148 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 20148 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:10:21.265+08:00  INFO 20148 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:10:23.119+08:00  INFO 20148 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:10:23.135+08:00  INFO 20148 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:10:23.136+08:00  INFO 20148 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:10:23.185+08:00  INFO 20148 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:10:23.185+08:00  INFO 20148 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1377 ms
+2025-06-20T21:10:26.687+08:00  INFO 20148 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:10:26.727+08:00  INFO 20148 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:10:27.345+08:00  INFO 20148 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:10:27.741+08:00  INFO 20148 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:10:27.753+08:00  INFO 20148 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.84 seconds (process running for 10.688)
+2025-06-20T21:11:59.073+08:00  INFO 20148 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:11:59.074+08:00  INFO 20148 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:11:59.075+08:00  INFO 20148 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-20T21:13:17.346+08:00  INFO 20148 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:13:17.351+08:00  INFO 20148 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:13:24.445+08:00  INFO 21060 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 21060 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:13:24.448+08:00  INFO 21060 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:13:25.951+08:00  INFO 21060 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:13:25.967+08:00  INFO 21060 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:13:25.968+08:00  INFO 21060 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:13:26.017+08:00  INFO 21060 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:13:26.018+08:00  INFO 21060 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1249 ms
+2025-06-20T21:13:28.753+08:00  INFO 21060 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:13:28.783+08:00  INFO 21060 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:13:29.214+08:00  INFO 21060 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:13:29.536+08:00  INFO 21060 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:13:29.545+08:00  INFO 21060 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 5.74 seconds (process running for 7.18)
+2025-06-20T21:13:36.851+08:00  INFO 21060 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:13:36.852+08:00  INFO 21060 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:13:36.852+08:00  INFO 21060 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-20T21:13:58.750+08:00  INFO 21060 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:13:58.755+08:00  INFO 21060 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:14:04.676+08:00  INFO 24844 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 24844 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:14:04.680+08:00  INFO 24844 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:14:06.295+08:00  INFO 24844 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:14:06.310+08:00  INFO 24844 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:14:06.310+08:00  INFO 24844 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:14:06.370+08:00  INFO 24844 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:14:06.371+08:00  INFO 24844 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1302 ms
+2025-06-20T21:14:09.475+08:00  INFO 24844 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:14:09.510+08:00  INFO 24844 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:14:09.941+08:00  INFO 24844 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:14:10.275+08:00  INFO 24844 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:14:10.290+08:00  INFO 24844 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 6.427 seconds (process running for 7.68)
+2025-06-20T21:14:17.162+08:00  INFO 24844 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:14:17.162+08:00  INFO 24844 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:14:17.163+08:00  INFO 24844 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-20T21:15:23.423+08:00  INFO 7908 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 7908 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:15:23.426+08:00  INFO 7908 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:15:25.260+08:00  INFO 7908 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:15:25.289+08:00  INFO 7908 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:15:25.291+08:00  INFO 7908 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:15:25.355+08:00  INFO 7908 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:15:25.355+08:00  INFO 7908 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2025-06-20T21:15:28.500+08:00  INFO 7908 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:15:28.536+08:00  INFO 7908 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:15:29.005+08:00  INFO 7908 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:15:29.371+08:00  INFO 7908 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:15:29.382+08:00  INFO 7908 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.132 seconds (process running for 9.751)
+2025-06-20T21:15:29.471+08:00  INFO 7908 --- [amap-mcp-119] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:15:29.472+08:00  INFO 7908 --- [amap-mcp-119] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:15:29.473+08:00  INFO 7908 --- [amap-mcp-119] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-20T21:15:49.098+08:00  INFO 7908 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:15:49.103+08:00  INFO 7908 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:15:54.887+08:00  INFO 17640 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 17640 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:15:54.890+08:00  INFO 17640 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:15:56.493+08:00  INFO 17640 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:15:56.508+08:00  INFO 17640 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:15:56.508+08:00  INFO 17640 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:15:56.559+08:00  INFO 17640 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:15:56.559+08:00  INFO 17640 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2025-06-20T21:15:59.142+08:00  INFO 17640 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:15:59.170+08:00  INFO 17640 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:15:59.608+08:00  INFO 17640 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:15:59.936+08:00  INFO 17640 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:15:59.946+08:00  INFO 17640 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 5.798 seconds (process running for 7.891)
+2025-06-20T21:16:12.208+08:00  INFO 17640 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:16:12.208+08:00  INFO 17640 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:16:12.209+08:00  INFO 17640 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-20T21:18:32.973+08:00  INFO 17640 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:18:32.973+08:00  INFO 17640 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:18:37.907+08:00  INFO 20100 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 20100 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:18:37.909+08:00  INFO 20100 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:18:39.754+08:00  INFO 20100 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:18:39.769+08:00  INFO 20100 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:18:39.769+08:00  INFO 20100 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:18:39.822+08:00  INFO 20100 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:18:39.822+08:00  INFO 20100 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2025-06-20T21:18:43.812+08:00  INFO 20100 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:18:43.854+08:00  INFO 20100 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:18:44.537+08:00  INFO 20100 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:18:45.035+08:00  INFO 20100 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:18:45.050+08:00  INFO 20100 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.835 seconds (process running for 9.71)
+2025-06-20T21:18:45.287+08:00  INFO 20100 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:18:45.287+08:00  INFO 20100 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:18:45.287+08:00  INFO 20100 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-20T21:18:45.812+08:00  INFO 20100 --- [amap-mcp-119] [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-20T21:18:51.812+08:00 ERROR 20100 --- [amap-mcp-119] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in github/com/fanjh/amap_mcp_119/alarm/mapper/FireReportMapper.java (best guess)
+### The error may involve github.com.fanjh.amap_mcp_119.alarm.mapper.FireReportMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection] with root cause
+
+com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'112.94.76.251' (using password: YES)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:128) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:849) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:771) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:739) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:156) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:468) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:213) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1430) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:134) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:839) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:820) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-6.3.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:77) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:64) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at jdk.proxy2/jdk.proxy2.$Proxy70.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:164) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:155) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:92) ~[mybatis-plus-core-3.5.11.jar:3.5.11]
+	at jdk.proxy2/jdk.proxy2.$Proxy75.selectList(Unknown Source) ~[na:na]
+	at github.com.fanjh.amap_mcp_119.alarm.service.FireAlarmService.list(FireAlarmService.java:33) ~[classes/:na]
+	at github.com.fanjh.amap_mcp_119.alarm.controller.EmergencyController.list(EmergencyController.java:45) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-06-20T21:19:54.339+08:00  INFO 20100 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:19:54.344+08:00  INFO 20100 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:20:57.425+08:00  INFO 19796 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 19796 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:20:57.437+08:00  INFO 19796 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:20:59.271+08:00  INFO 19796 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:20:59.287+08:00  INFO 19796 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:20:59.302+08:00  INFO 19796 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:20:59.350+08:00  INFO 19796 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:20:59.350+08:00  INFO 19796 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2025-06-20T21:21:03.019+08:00  INFO 19796 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:21:03.063+08:00  INFO 19796 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:21:04.017+08:00  INFO 19796 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:21:04.607+08:00  INFO 19796 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:21:04.622+08:00  INFO 19796 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.911 seconds (process running for 10.842)
+2025-06-20T21:22:20.805+08:00  INFO 19796 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:22:20.805+08:00  INFO 19796 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:22:27.088+08:00  INFO 22048 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Starting AmapMcp119Application using Java 21.0.2 with PID 22048 (D:\Bstudy\B3-代码\ai\amap-mcp-119\target\classes started by 17319 in D:\Bstudy\B3-代码\ai\amap-mcp-119)
+2025-06-20T21:22:27.088+08:00  INFO 22048 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : No active profile set, falling back to 1 default profile: "default"
+2025-06-20T21:22:29.268+08:00  INFO 22048 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-20T21:22:29.291+08:00  INFO 22048 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-20T21:22:29.292+08:00  INFO 22048 --- [amap-mcp-119] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-20T21:22:29.372+08:00  INFO 22048 --- [amap-mcp-119] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-20T21:22:29.374+08:00  INFO 22048 --- [amap-mcp-119] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1878 ms
+2025-06-20T21:22:32.704+08:00  INFO 22048 --- [amap-mcp-119] [pool-5-thread-1] i.m.c.transport.StdioClientTransport     : STDERR Message received: Amap Maps MCP Server running on stdio
+2025-06-20T21:22:32.743+08:00  INFO 22048 --- [amap-mcp-119] [pool-2-thread-1] i.m.client.McpAsyncClient                : Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[experimental=null, logging=null, prompts=null, resources=null, tools=ToolCapabilities[listChanged=null]], Info: Implementation[name=mcp-server/amap-maps, version=0.1.0] and Instructions null
+2025-06-20T21:22:33.203+08:00  INFO 22048 --- [amap-mcp-119] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-06-20T21:22:33.545+08:00  INFO 22048 --- [amap-mcp-119] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-20T21:22:33.555+08:00  INFO 22048 --- [amap-mcp-119] [main] g.c.f.a.AmapMcp119Application            : Started AmapMcp119Application in 7.69 seconds (process running for 10.161)
+2025-06-20T21:22:52.460+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20T21:22:52.460+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-20T21:22:52.461+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-20T21:22:52.817+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-20T21:22:53.095+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20f8159
+2025-06-20T21:22:53.095+08:00  INFO 22048 --- [amap-mcp-119] [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-20T21:44:15.393+08:00  INFO 22048 --- [amap-mcp-119] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-20T21:44:15.399+08:00  INFO 22048 --- [amap-mcp-119] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-20T21:44:15.406+08:00  INFO 22048 --- [amap-mcp-119] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-20T21:44:15.414+08:00  INFO 22048 --- [amap-mcp-119] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
