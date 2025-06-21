@@ -19,8 +19,7 @@ import java.util.List;
 @RequestMapping("/api/emergency")
 @Slf4j
 public class EmergencyController {
-    @Autowired
-    private AmapService amapService;
+
     @Autowired
     private FireAlarmService fireAlarmService;
 

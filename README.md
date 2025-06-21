@@ -1,11 +1,10 @@
 # amap-mcp-119
-## 火警应急系统
-
+## 火警应急系统 
+获得二等奖🏆的高德MCP消防救援应用，报警智能AI助手：精准报警位置、最佳逃生路线、最近就医；智慧消防应急响应：调动最快出警的消防队、和规划最佳的救援路径。 
 ## 快速开始
 * 1、执行初始化db/init.sql 
 * 2、修改配置  
-2.1 阿里云百炼：OPEN_API_KEY  
-2.2 数据库密码  
+阿里云百炼：OPEN_API_KEY、数据库连接信息：账号密码  
 ````
 spring.ai.openai.base-url=https://dashscope.aliyuncs.com/compatible-mode/
 spring.ai.openai.chat.options.model=deepseek-r1
@@ -17,7 +16,7 @@ spring.datasource.url=jdbc:mysql://${MYSQL_HOST_PORT}/fire-test?useSSL=false&ver
 spring.datasource.username=root
 spring.datasource.password=${MYSQL_PASSWORD}
 ````
-2.3 修改高德地图api key  
+高德地图api key
 ````
 {
     "mcpServers": {
@@ -34,15 +33,15 @@ spring.datasource.password=${MYSQL_PASSWORD}
     }
 }
 ````
-* 2、直接启动AmapMcp119Application  
+3、直接启动AmapMcp119Application  
 ### 119 报警智能助手
-* 访问地址:http://localhost:8080/index.html
+访问地址:http://localhost:8080/index.html  
   ![图片描述](./src/main/resources/image/119.png)
 
 ### 消防队相应系统
-* 访问地址:http://localhost:8080/fire-station/index.html
+访问地址:http://localhost:8080/fire-station/index.html  
   ![图片描述](./src/main/resources/image/station.png)
-## 问题讨论
-在下面的微信公众号提交问题，有时间一起交流学习。更多资料关注公众号【有范编程笔记】
+## 更多资讯
+想了解更多资讯，获得更多资料，请关注公众号【有范编程笔记】
 ![图片描述](./src/main/resources/image/fanjh.png)
 
